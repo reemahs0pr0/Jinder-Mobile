@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Jinder</string>
+    <string name="first">login</string>
+    <string name="tip_account">username</string>
+    <string name="tip_password">password</string>
+    <string name="tip_password_again">reenter password</string>
+    <string name="tip_email">email</string>
+    <string name="tip_address">home address</string>
+    <string name="tip_phone">phone number eg. 12345678</string>
+    <string name="tip_fullname">full name</string>
+    <string name="login">login</string>
+    <string name="logout">Logout</string>
+    <string name="myAccount">View Account</string>
+    <string name="title_activity_upload_to_server">UploadToServer</string>
+    <string name="uploadResume">Upload Resume</string>
+</resources>

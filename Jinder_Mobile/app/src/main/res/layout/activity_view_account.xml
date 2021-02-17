@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="My Account"
+        android:textSize="40dp"
+        android:textColor="@color/lightblue"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/emailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/phoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/resumeUploaded"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/editBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Edit"
+        android:textSize="20sp"
+        android:layout_weight="0.7"/>
+
+</LinearLayout>
